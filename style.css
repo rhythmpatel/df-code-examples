@@ -1,0 +1,39 @@
+/* Common styles */
+body {
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.toc {
+    min-width: 500px;
+    background-color: #e0e7ff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.toc ul {
+    margin: 0;
+    padding-left: 15px;
+}
+
+.toc ul li {
+    margin-bottom: 10px;
+}
+
+.toc ul li:last-child {
+    margin-bottom: 0;
+}
+
+a {
+    color: #4338ca;
+}
