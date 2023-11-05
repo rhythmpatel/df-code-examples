@@ -1,0 +1,78 @@
+/* Demo styles */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.demo-container {
+    background-color: #eee;
+    padding: 30px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.example {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.example:last-child {
+    margin-bottom: 0;
+}
+
+.variation {
+    width: 130px;
+    flex-shrink: 0;
+}
+
+/* Triangle Base styles */
+.triangle {
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+}
+
+/* Triangle direction */
+.triangle-up {
+    border-bottom-color: #000;
+    border-top-width: 0;
+}
+
+.triangle-down {
+    border-top-color: #000;
+    border-bottom-width: 0;
+}
+
+.triangle-left {
+    border-right-color: #000;
+    border-left-width: 0;
+}
+
+.triangle-right {
+    border-left-color: #000;
+    border-right-width: 0;
+}
+
+/* Changing the size */
+.triangle-down-30 {
+    border-width: 30px;
+    border-bottom-width: 0;
+}
+
+/* Changing the color */
+.triangle-down-blue {
+    border-top-color: #0ea5e9;
+    border-bottom-width:  0;
+}
+
+/* Adding hover effect */
+.triangle-hover-effect {
+    border-top-color: #0ea5e9;
+    border-bottom-width:  0;
+    transition: border-color .3s ease;
+}
+
+.triangle-hover-effect:hover {
+    border-top-color: #0369a1;
+}
